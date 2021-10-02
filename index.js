@@ -13,6 +13,7 @@ app.use("/user", users);
 
 const PORT = process.env.DB_PORT || 2022
 
+// Listen the Server
 app.listen(PORT, () => {
     console.log(`Server is running on PORT ${PORT}`)
 })
